@@ -31,7 +31,7 @@
     
     <project
         name="LineageOS/android_kernel_motorola_sm7325"
-        path="kernel/motorola/sm7325-common"
+        path="kernel/motorola/sm7325"
         remote="github"
         revision="sixteen" />
 
