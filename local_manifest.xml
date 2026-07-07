@@ -7,10 +7,6 @@
         name="shipukacapri"
         fetch="https://github.com/shipukacapri/" />
 
-<!--    <remote
-        name="github-Pong"
-        fetch="https://github.com/Pong-Development/" /> -->
-
 <!-- Device tree -->
     
     <project
