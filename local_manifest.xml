@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- remotes -->
+
+    <remote
+        name="shipukacapri"
+        fetch="https://github.com/shipukacapri/" />
+
+<!--    <remote
+        name="github-Pong"
+        fetch="https://github.com/Pong-Development/" /> -->
+
+<!-- Device tree -->
+    
+    <project
+        name="android_device_motorola_xpeng"
+        path="device/motorola/xpeng"
+        remote="shipukacapri"
+        revision="infinity" />
+
+  <!-- Common Device tree -->
+    
+    <project
+        name="android_device_motorola_sm7325-common"
+        path="device/motorola/sm7325-common"
+        remote="shipukacapri"
+        revision="lineage-23.2" />
+
+<!-- kernel tree -->
+    
+    <project
+        name="LineageOS/android_kernel_motorola_sm7325"
+        path="kernel/motorola/sm7325-common"
+        remote="github"
+        revision="sixteen" />
+
+<!-- Vendor tree -->
+    
+    <project
+        name="TheMuppets/proprietary_vendor_motorola_xpeng"
+        path="vendor/motorola/xpeng"
+        remote="github"
+        revision="lineage-23.2" />
+
+  <!-- Common Vendor tree -->
+    
+    <project
+        name="TheMuppets/proprietary_vendor_motorola_sm7325-common"
+        path="vendor/motorola/sm7325-common"
+        remote="github"
+        revision="lineage-23.2" />
+
+<!-- moto hardware tree -->
+    
+    <project
+        name="LineageOS/android_hardware_motorola"
+        path="hardware/motorola"
+        remote="github"
+        revision="lineage-23.2" />
+    
+</manifest>
