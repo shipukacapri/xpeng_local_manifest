@@ -18,9 +18,9 @@
   <!-- Common Device tree -->
     
     <project
-        name="android_device_motorola_sm7325-common"
+        name="LineageOS/android_device_motorola_sm7325-common"
         path="device/motorola/sm7325-common"
-        remote="shipukacapri"
+        remote="github"
         revision="lineage-23.2" />
 
 <!-- kernel tree -->
