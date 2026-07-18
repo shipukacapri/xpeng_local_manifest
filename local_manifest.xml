@@ -4,23 +4,23 @@
 <!-- remotes -->
 
     <remote
-        name="shipukacapri"
-        fetch="https://github.com/shipukacapri/" />
+        name="github"
+        fetch="https://github.com/" />
 
 <!-- Device tree -->
     
     <project
-        name="android_device_motorola_xpeng"
+        name="shipukacapri/android_device_motorola_xpeng"
         path="device/motorola/xpeng"
-        remote="shipukacapri"
+        remote="github"
         revision="voltage-16" />
 
   <!-- Common Device tree -->
     
     <project
-        name="android_device_motorola_sm7325-common"
+        name="shipukacapri/android_device_motorola_sm7325-common"
         path="device/motorola/sm7325-common"
-        remote="shipukacapri"
+        remote="github"
         revision="voltage-16" />
 
 <!-- kernel tree -->
