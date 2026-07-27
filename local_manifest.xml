@@ -13,7 +13,7 @@
         name="android_device_motorola_xpeng"
         path="device/motorola/xpeng"
         remote="shipukacapri"
-        revision="infinity-16" />
+        revision="evo-17" />
 
   <!-- Common Device tree -->
     
@@ -21,7 +21,7 @@
         name="LineageOS/android_device_motorola_sm7325-common"
         path="device/motorola/sm7325-common"
         remote="github"
-        revision="lineage-23.2" />
+        revision="lineage-24.0" />
 
 <!-- kernel tree -->
     
@@ -29,7 +29,7 @@
         name="LineageOS/android_kernel_motorola_sm7325"
         path="kernel/motorola/sm7325"
         remote="github"
-        revision="lineage-23.2" />
+        revision="lineage-24.0" />
 
 <!-- Vendor tree -->
     
@@ -37,7 +37,7 @@
         name="TheMuppets/proprietary_vendor_motorola_xpeng"
         path="vendor/motorola/xpeng"
         remote="github"
-        revision="lineage-23.2" />
+        revision="lineage-24.0" />
 
   <!-- Common Vendor tree -->
     
@@ -45,7 +45,7 @@
         name="TheMuppets/proprietary_vendor_motorola_sm7325-common"
         path="vendor/motorola/sm7325-common"
         remote="github"
-        revision="lineage-23.2" />
+        revision="lineage-24.0" />
 
 <!-- moto hardware tree -->
     
@@ -53,6 +53,6 @@
         name="LineageOS/android_hardware_motorola"
         path="hardware/motorola"
         remote="github"
-        revision="lineage-23.2" />
+        revision="lineage-24.0" />
     
 </manifest>
